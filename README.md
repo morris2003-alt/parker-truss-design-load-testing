@@ -25,7 +25,13 @@ The project included:
 
 ## Engineering Interpretation
 
-The experimental bridge failed below the theoretical prediction. The discrepancy was associated with fabrication imperfections, non-ideal wire-tied joints, uncertainty in material stiffness, geometric asymmetry, and modeling assumptions.
+The experimental bridge failed 29% below the strength predicted by the simplified linear model. Inspecting the failure process pointed to three primary drivers of the premature failure:
+
+- **Early buckling of compression members:** the slender bamboo members in compression buckled before the predicted capacity was reached; the linear member-force analysis did not include buckling.
+- **Joint elasticity from manual wire-wrapping:** the hand-tied joints loosened and deformed under load instead of acting as the idealized pinned joints assumed in the analysis.
+- **Loading eccentricity:** the load was not applied perfectly at the intended position, and the fabricated truss was not perfectly vertical or symmetric, introducing bending that the analysis did not account for.
+
+Other sources of uncertainty included differences between the fabricated and theoretical dimensions, the elastic modulus of bamboo taken from reference data, and the 0.24 kg self-weight neglected in the original calculation.
 
 ## Project Portfolio
 
